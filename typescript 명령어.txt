@@ -1,0 +1,14 @@
+npm init -y			:
+npm install --save-dev		: 
+
+npm install tsc-watch --save-dev	: tsc-watch 다운
+{
+ tsconfig.json{ "compilerOptions": {"outDir": "dist"}, "include" : ["src/**/*"]}
+ package.json{"scripts":{"start": "tsc-watch --onSuccess \" node dist/index.js\" "}}
+}
+
+npx tsc				: 컴파일 실행
+
+
+npm install cryto-js			: js에서 해시 함수를 통해 암호화를 할 수 있도록 해주는 패키지
+
