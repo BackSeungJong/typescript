@@ -50,6 +50,5 @@ $RECYCLE.BIN/
 
 # dotenv environment variables file
 .env
-dist
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows
